@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>استودیو جباری</title>
+<meta name="description" content="استودیو جباری، دفتر معماری و طراحی داخلی در ارومیه.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300;400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="hd" id="hd">
+  <div class="w hd-in">
+    <button class="brand go" data-to="top" aria-label="استودیو جباری، بازگشت به بالا">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L22 7.5V16.5L12 22L2 16.5V7.5Z M2 7.5L12 13L22 7.5M12 13V22" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+      <span>استودیو جباری</span>
+    </button>
+    <nav aria-label="بخش‌های سایت">
+      <button class="go" data-to="about">درباره</button>
+      <button class="go" data-to="services">خدمات</button>
+      <button class="go" data-to="projects">پروژه‌ها</button>
+      <button class="go" data-to="team">تیم</button>
+    </nav>
+    <button class="ct go" data-to="contact">تماس</button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero dots">
+    <div class="w g hero-t">
+      <p class="kick rise">استودیوی معماری و طراحی داخلی · ارومیه</p>
+      <h1 class="rise">معماری برای <span class="mute">زندگیِ هر روز</span></h1>
+      <p class="sub rise just" id="hero-sub"></p>
+      <div class="acts rise"><button class="btn go" data-to="contact">رزرو جلسه‌ی آشنایی</button><button class="lnk go" data-to="projects">پروژه‌های منتخب</button></div>
+    </div>
+    <div class="iso hero-iso" id="iso-hero"></div>
+  </section>
+
+  <section class="sec dk" id="about" data-dark><div class="w sec-body">
+    <div class="shd"><b>درباره‌ی ما</b><span>۰۱ / ۰۵</span></div>
+    <div class="g ab">
+      <div class="ab-l rv"><h2 class="ab-h" id="about-h"></h2><p class="ab-p just" id="about-lead"></p><p class="ab-y"><b id="story-y"></b><span>آغاز کار در ارومیه</span></p></div>
+      <ul class="ab-r rv" id="about-pr"></ul>
+    </div>
+  </div></section>
+
+  <section class="sec" id="record"><div class="w sec-body">
+    <div class="shd"><b>کارنامه</b><span>۰۲ / ۰۵</span></div>
+    <div class="g"><h2 class="h2 rv">دوازده سال طراحی و ساخت در ارومیه و شهرهای اطراف</h2><div class="bento" id="bento"></div></div>
+  </div></section>
+
+  <section class="sec" id="services"><div class="w sec-body">
+    <div class="shd"><b>خدمات</b><span>۰۳ / ۰۵</span></div>
+    <div class="g"><h2 class="h2 rv">از ایده تا ساختمانی که در آن زندگی می‌کنید</h2>
+      <div class="svc-wrap"><div class="svc-list" id="svc"></div><div class="iso svc-vis" id="iso-svc"></div></div></div>
+  </div></section>
+
+  <section class="sec dk" id="projects" data-dark><div class="w sec-body">
+    <div class="shd"><b>پروژه‌های منتخب</b><span>۰۴ / ۰۵</span></div>
+    <div class="g"><h2 class="h2 rv">چند کار از میان بیش از هشتاد پروژه</h2><div class="pj" id="pj"></div></div>
+  </div></section>
+
+  <section class="sec" id="team"><div class="w sec-body">
+    <div class="shd"><b>تیم</b><span>۰۵ / ۰۵</span></div>
+    <div class="g"><h2 class="h2 rv">آدم‌هایی که پروژه را از اولین خط تا آخرین بازدید همراهی می‌کنند</h2>
+      <div class="founder rv" id="founder"></div><div class="crew" id="crew"></div></div>
+  </div></section>
+</main>
+
+<footer class="ft" id="contact" data-dark>
+  <div class="w">
+    <h2 class="ft-h">برای یک جلسه‌ی آشنایی تماس بگیرید. <span class="mute">جلسه‌ی اول رایگان است.</span></h2>
+    <div class="ft-row">
+      <div class="f-ph"><h4>تلفن</h4><ul id="fph"></ul></div>
+      <div class="f-ad"><h4>دفتر</h4><p id="addr"></p><p class="maps" id="maps"></p></div>
+      <div class="f-ap"><h4>پیام‌رسان‌ها</h4><div class="apps" id="apps"></div><small id="handle"></small></div>
+    </div>
+    <div class="ft-bot"><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L22 7.5V16.5L12 22L2 16.5V7.5Z M2 7.5L12 13L22 7.5M12 13V22" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>استودیو جباری</b><span>© ۱۴۰۳</span></div>
+  </div>
+</footer>
+
+<script src="assets/js/content.js"></script>
+<script src="assets/js/engine.js"></script>
+<script src="assets/js/scenes.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
